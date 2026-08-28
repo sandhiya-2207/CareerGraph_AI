@@ -2,14 +2,6 @@ import os
 import pandas as pd
 import streamlit as st
 
-st.write("Current folder:", os.getcwd())
-st.write("Files:", os.listdir("."))
-
-st.write("Data folder exists:", os.path.exists("data"))
-
-if os.path.exists("data"):
-    st.write("Data folder files:", os.listdir("data"))
-
 
 # ============================================================
 # PAGE CONFIGURATION
