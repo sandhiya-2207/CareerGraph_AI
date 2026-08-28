@@ -31,11 +31,10 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 # Correct location of career_data.csv
 DATA_PATH = os.path.join(
-    BASE_DIR,
+    os.path.dirname(os.path.abspath(__file__)),
     "data",
     "career_data.csv"
 )
-
 
 # Check whether the CSV file exists
 if not os.path.exists(DATA_PATH):
