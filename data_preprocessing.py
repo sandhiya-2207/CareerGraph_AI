@@ -2,7 +2,6 @@ import pandas as pd
 
 # Load the career dataset
 data = pd.read_csv("../data/career_data.csv")
-
 # Display the first 5 rows
 print("Career Dataset:")
 print(data.head())
